@@ -46,7 +46,7 @@ subMenuEl.style.top = '0'; //4.5
 
 //5.1
 const topMenuLinks = document.querySelectorAll("#top-menu a");
-console.log(topMenuLinks)
+// console.log(topMenuLinks)
 
 let showingSubMenu = false;
 
