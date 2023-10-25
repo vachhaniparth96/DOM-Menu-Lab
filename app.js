@@ -92,7 +92,6 @@ topMenuEl.addEventListener('click', function(e) { //5.2
     if(showingSubMenu) { //5.7
         buildSubMenu(subLinkExists.subLinks)
         subMenuEl.style.top = '100%';
-        mainEl.innerHTML = `<h1>${e.target.innerHTML}</h1>` 
     } else {
         subMenuEl.style.top = 0;
         mainEl.innerHTML = '<h1>about</h1>'
